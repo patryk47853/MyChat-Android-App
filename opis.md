@@ -51,27 +51,40 @@ Te technologie współpracują ze sobą, dostarczając solidnych podstaw dla apl
 
 * #### Ekran powitalny
 
-<img src="screenshots/welcome_screen.png" alt="welcome-screen" align="center" width="300">
+<img src="screenshots/sign_in.png" alt="welcome-screen" align="center" width="300">
 <br>
 
 * #### Rejestracja
 
 <img src="screenshots/sign_up.png" alt="sign-up" align="center" width="300">
+<img src="screenshots/registering_2.png" alt="new-message" align="center" width="300">
 <br>
 
 * #### Lista znajomych i historia czatów
 
-<img src="screenshots/friends_list.png" alt="friends-list" align="center" width="300">
+<img src="screenshots/main_view.png" alt="friends-list" align="center" width="300">
 <br>
 
 * #### Powiadomienie o nowej wiadomości
 
-<img src="screenshots/new_message.png" alt="new-message" align="center" width="300">
+<img src="screenshots/notification_1.png" alt="new-message" align="center" width="300">
+<img src="screenshots/notification_2.png" alt="new-message" align="center" width="300">
 <br>
 
 * #### Czat i funkcja lokalizacji w działaniu
 
-<img src="screenshots/localisation.png" alt="localisation" align="center" width="300">
+<img src="screenshots/chat.png" alt="localisation" align="center" width="300">
+
+* #### Zaktualizuj profil i wgraj własne zdjęcie
+
+<img src="screenshots/update_profile.png" alt="welcome-screen" align="center" width="300">
+<img src="screenshots/take_picture.png" alt="welcome-screen" align="center" width="300">
+<br>
+
+* #### Widok z menu szybkiego dostępu
+
+<img src="screenshots/quick_access_menu.png" alt="welcome-screen" align="center" width="300">
+<br>
 
 ## <a name="todo"></a> 📋 Lista TO-DO
 
