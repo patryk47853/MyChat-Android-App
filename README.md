@@ -53,27 +53,40 @@ These technologies work in unison, providing a robust foundation for Android cha
 
 * #### Welcome screen
 
-<img src="screenshots/welcome_screen.png" alt="welcome-screen" align="center" width="300">
+<img src="screenshots/sign_in.png" alt="welcome-screen" align="center" width="300">
 <br>
 
 * #### Sign up
 
 <img src="screenshots/sign_up.png" alt="sign-up" align="center" width="300">
+<img src="screenshots/registering_2.png" alt="new-message" align="center" width="300">
 <br>
 
 * #### Friends list and chat history
 
-<img src="screenshots/friends_list.png" alt="friends-list" align="center" width="300">
+<img src="screenshots/main_view.png" alt="friends-list" align="center" width="300">
 <br>
 
 * #### New message notification
 
-<img src="screenshots/new_message.png" alt="new-message" align="center" width="300">
+<img src="screenshots/notification_1.png" alt="new-message" align="center" width="300">
+<img src="screenshots/notification_2.png" alt="new-message" align="center" width="300">
 <br>
 
 * #### Chat and localisation feature in action
 
-<img src="screenshots/localisation.png" alt="localisation" align="center" width="300">
+<img src="screenshots/chat.png" alt="localisation" align="center" width="300">
+
+* #### Update profile and take your own picture
+
+<img src="screenshots/update_profile.png" alt="welcome-screen" align="center" width="300">
+<img src="screenshots/take_picture.png" alt="welcome-screen" align="center" width="300">
+<br>
+
+* #### Quick access menu
+
+<img src="screenshots/quick_access_menu.png" alt="welcome-screen" align="center" width="300">
+<br>
 
 ## <a name="todo"></a> 📋 TO-DO List
 
