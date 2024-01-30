@@ -3,7 +3,7 @@
 * [📝 Description](#description)
   * [Overview](#overview)
   * [Discover the Features](#features)
-* [🔧 Technologies & Frameworks](#technologies)
+* [🔧 Technologies](#technologies)
 * [📸 Screenshots](#screenshots)
 * [📋 TO-DO List](#todo)
 ## <a name="description"></a> 📝 Description
@@ -29,7 +29,7 @@ MyChat App stands out with a variety of features designed to enhance the overall
 
 These features collectively create a dynamic, feature-rich, and secure chat platform that caters to the diverse needs of users.
 
-## <a name="technologies"></a> 🔧 Technologies & Frameworks
+## <a name="technologies"></a> 🔧 Technologies
 
 MyChat App is a synergy of the following technologies and frameworks:
 
@@ -61,7 +61,7 @@ These technologies work in unison, providing a robust foundation for Android cha
 <img src="screenshots/sign_up.png" alt="sign-up" align="center" width="300">
 <br>
 
-* #### Friends list
+* #### Friends list and chat history
 
 <img src="screenshots/friends_list.png" alt="friends-list" align="center" width="300">
 <br>
@@ -71,7 +71,7 @@ These technologies work in unison, providing a robust foundation for Android cha
 <img src="screenshots/new_message.png" alt="new-message" align="center" width="300">
 <br>
 
-* #### Localisation feature in action
+* #### Chat and localisation feature in action
 
 <img src="screenshots/localisation.png" alt="localisation" align="center" width="300">
 
