@@ -76,6 +76,7 @@ These technologies work in unison, providing a robust foundation for Android cha
 * #### Chat and localisation feature in action
 
 <img src="screenshots/chat.png" alt="localisation" align="center" width="300">
+<br>
 
 * #### Update profile and take your own picture
 
