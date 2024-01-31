@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/messenger" />
+
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/nunito"
+                android:gravity="start"
+                android:text="Welcome to MyChat!"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent"
+                app:boxBackgroundColor="@android:color/transparent">
+
+                <EditText
+                    android:id="@+id/loginetemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="E-mail:"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="25"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    tools:background="@android:color/transparent" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/editTextPasswordInputLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent"
+                android:padding="0dp"
+                app:boxBackgroundColor="@android:color/transparent">
+
+                <EditText
+                    android:id="@+id/loginetpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:hint="Password:"
+                    android:importantForAutofill="no"
+                    android:inputType="textPassword"
+                    android:maxLength="25"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    tools:background="@android:color/transparent" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:text="Log in"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/signInTextToSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Don't have an account? Sign in!"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+
+    <data>
+
+
+        <variable
+            name="viewModel"
+            type="pl.mychat.patrykkotlin.mvvm.ChatAppViewModel" />
+
+
+    </data>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/settingChatContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarMain"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#191970">
+
+
+                <ImageView
+                    android:id="@+id/settingBackBtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/back" />
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/settingUpdateImage"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:padding="15dp"
+                android:src="@drawable/person"
+                app:civ_border_color="#FE2C54"
+                app:civ_border_width="1dp" />
+
+
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/nunito_bold"
+                android:gravity="start"
+                android:text="Update Your Profile"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent"
+                app:boxBackgroundColor="@android:color/transparent">
+
+                <EditText
+                    android:id="@+id/settingUpdateName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/nunito_bold"
+                    android:hint="Name"
+                    android:importantForAutofill="no"
+                    android:inputType="textCapWords"
+                    android:maxLength="25"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:text="@={viewModel.name}"
+                    tools:background="@android:color/transparent" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/settingUpdateButton"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#191970"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Update"
+                android:textSize="16sp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent=".5" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</layout>
